@@ -1,0 +1,35 @@
+header{
+    display: flex;
+
+    #left_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        background-color: antiquewhite;
+
+        #icon_calendar{
+            display: flex;
+            height: 40px;
+        }
+
+        #logo{
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 10px;
+            padding-left: 4px;
+        }
+    }
+
+    #right_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: red;
+
+        #icon_user{
+            display: flex;
+            height: 40px;
+        }
+    }
+}
