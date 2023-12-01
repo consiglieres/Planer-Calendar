@@ -1,0 +1,31 @@
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    block-size: 20px;
+    border-right: 1px solid black;
+    height: 880px;
+    width: 250px;
+
+    #first_wall_information{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: auto;
+        padding-left: 10%;
+
+    }
+
+    #secondary_information{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: auto;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-height: 400px){
+    article{
+        height: 250px;
+        width: 80px;
+    }
+}
