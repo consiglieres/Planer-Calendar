@@ -1,11 +1,12 @@
 article{
+    float: left;
     display: flex;
     flex-direction: column;
     background-color: bisque;
     block-size: 20px;
     border-right: 1px solid black;
     height: 880px;
-    width: 250px;
+    width: 15%;
 
     #first_wall_information{
         display: flex;
