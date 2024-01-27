@@ -1,11 +1,10 @@
 import './App.css';
-import Header from './components/calendar components/header.jsx'
+import Calendar from "./pages/calendar";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-     
+      <div className="App">
+        <Calendar />
     </div>
   );
 };
