@@ -1,4 +1,3 @@
-import './App.css';
 import Calendar from './pages/calendar.jsx'
 
 export default function App() {
