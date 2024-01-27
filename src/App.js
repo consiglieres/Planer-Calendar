@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< Updated upstream
 import Header from './Header';
+=======
+import Calendar from './pages/calendar.jsx'
+>>>>>>> Stashed changes
 
 export default function App() {
   return (
     <div className="App">
+<<<<<<< Updated upstream
           <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +25,10 @@ export default function App() {
           Learn React
         </a>
       </header>
+=======
+      <Calendar />
+     
+>>>>>>> Stashed changes
     </div>
   );
 };
