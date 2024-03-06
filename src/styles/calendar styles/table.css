@@ -1,0 +1,12 @@
+.table_horizontal, .table_vertical{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+    height: 40px;
+    width: 1900px;
+
+    .table_vertical{
+        border: 1px solid white;
+    }
+}

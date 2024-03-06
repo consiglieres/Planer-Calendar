@@ -1,0 +1,17 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #564F6F;
+
+    .left_side, .center_side, .right_side{
+        padding: 30px 0px 30px 0px;
+        margin: 0px 30px 0px 30px;
+
+        .text_logo, .new_button, .button_planer, .button_health, .button_profile, .button_settings{
+            margin: 0px 15px;
+        }
+    }
+}
